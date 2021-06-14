@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var Book_1 = require("../src/Book");
 var ShoppingCart_1 = require("../src/ShoppingCart");
 describe("Testing Functions From ShoppingCart", function () {
@@ -20,4 +20,3 @@ describe("Testing Functions From ShoppingCart", function () {
         expect(cart.getTotal()).toBe(25);
     });
 });
-//# sourceMappingURL=GetTotalTest.spec.js.map
