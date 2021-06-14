@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.ShoppingCart = void 0;
 var ShoppingCart = /** @class */ (function () {
     function ShoppingCart() {
@@ -16,3 +16,4 @@ var ShoppingCart = /** @class */ (function () {
     return ShoppingCart;
 }());
 exports.ShoppingCart = ShoppingCart;
+//# sourceMappingURL=ShoppingCart.js.map
