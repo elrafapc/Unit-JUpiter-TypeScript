@@ -1,0 +1,35 @@
+{
+  "name": "testedjsaplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "jasmine": "^3.7.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/cucumber": "^7.0.0",
+    "@types/jest": "^26.0.23",
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "scripts": {
+    "test": "tsc && cucumber-js features/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/elrafapc/testedjsaplication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/elrafapc/testedjsaplication/issues"
+  },
+  "homepage": "https://gitlab.com/elrafapc/testedjsaplication#readme"
+}
