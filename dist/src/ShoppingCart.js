@@ -10,6 +10,13 @@ var ShoppingCart = /** @class */ (function () {
         this.items.push(b);
         this.total += b.price;
     };
+    ShoppingCart.prototype.clear = function () {
+        this.items = [];
+        this.total = 0;
+    };
+    ShoppingCart.prototype.countItems = function () {
+        return this.items.length;
+    };
     ShoppingCart.prototype.getTotal = function () {
         return this.total;
     };

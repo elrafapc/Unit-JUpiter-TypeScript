@@ -11,6 +11,15 @@ export class ShoppingCart{
         this.total += b.price;
     }
 
+    clear(){
+        this.items = [];
+        this.total = 0;
+    }
+
+    countItems(){
+        return this.items.length;
+    }
+
     getTotal(){
         return this.total;
     }
